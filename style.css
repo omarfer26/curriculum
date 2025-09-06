@@ -93,6 +93,9 @@ p {
     margin: 15px;
     text-align: center;
 }
+.proyecto ul li {
+    width: 200px;
+}
 
 .img-proyecto {
     max-width: 100%;
