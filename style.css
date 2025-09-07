@@ -60,6 +60,28 @@ p {
     text-align: justify;
 }
 
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro header {
+    flex: 2;
+}
+
+.intro aside {
+    flex: 1;
+    text-align: right;
+}
+
+#yo {
+    width: 200px;
+    height: 250px;
+    border-radius: 10%;
+    border: 3px solid #0056b3;
+}
+
 /* Bounce and expand loader styles */
 .loader-wrapper {
     position: fixed;
@@ -106,6 +128,8 @@ p {
 .img-proyecto:hover {
     transform: scale(1.1);
 }
+
+
 
 /* Keyframe animations */
 @keyframes fadeIn {
@@ -178,6 +202,9 @@ p {
         transform: none;
     }
     .proyectos-container {
+        flex-direction: column;
+    }
+    .intro {
         flex-direction: column;
     }
 }
